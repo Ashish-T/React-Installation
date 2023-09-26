@@ -1,0 +1,20 @@
+npm install webpack --save
+npm install webpack-dev-server --save
+npm install webpack-cli --save
+
+
+npm install babel-core --save-dev
+npm install babel-loader --save-dev
+npm install babel-preset-env --save-dev
+npm install babel-preset-react --save-dev
+npm install html-webpack-plugin --save-dev
+
+# Creating Null Files for configuration
+
+type nul > index.html
+type nul > App.js
+type nul > main.js
+type nul > webpack.config.js
+type nul > .babelrc
+
+
